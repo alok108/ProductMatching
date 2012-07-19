@@ -4,7 +4,7 @@ ini_set('max_execution_time', 3000);
 date_default_timezone_set('Europe/London');
 
 /** Include PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/Classes/PHPExcel/IOFactory.php';
 
 $objPHPExcel = new PHPExcel();
 
